@@ -53,16 +53,46 @@ for (x=0; x<supplyChanges.length; x++){
     }
 }
 
-
-
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
 // 7. Rewrite the `for` loop from #6 as a `for of` loop.
 console.log('7. Showing supplyChanges with "for of" loop');
 
+for(quantity of supplyChanges){
+  console.log(quantity);
+    if(quantity > 0){
+      console.log( 'Added', quantity ,'parts.');
+    }
+    else if(quantity < 0){
+        console.log( 'Removed', Math.abs(quantity) ,'parts.' );
+    }
+    else{
+      console.log( 'No change' );
+    }
+}
+// at the risk of sounding braggy, I nailed it on my first try - no joke!
+// ...I hope it's right!
+
+
 // 8. Rewrite the `for` loop from #6 as a `while` loop.
 console.log('8. Showing supplyChanges with "while" loop');
 
+let final = 0
+while(final<6){
+  final++;
+    console.log(supplyChanges[final]);
+    if(supplyChanges[final] > 0){
+      console.log( 'Added', supplyChanges[final] ,'parts.');
+    }
+    else if(supplyChanges[final] < 0){
+      console.log( 'Removed', Math.abs(supplyChanges[final]) ,'parts.' );
+    }
+    else{
+      console.log( 'No change' );
+  }
+}
+//You're going to think I'm full of beans, but...
+//...first try on this one as well!
 
 // 9. Write a loop to determine the total number of parts available by
 //    adding up all the numbers in the 'supplyChanges' array.
