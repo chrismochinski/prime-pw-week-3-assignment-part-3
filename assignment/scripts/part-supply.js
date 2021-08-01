@@ -70,8 +70,6 @@ for(quantity of supplyChanges){
       console.log( 'No change' );
     }
 }
-// at the risk of sounding braggy, I nailed it on my first try - no joke!
-// ...I hope it's right!
 
 
 // 8. Rewrite the `for` loop from #6 as a `while` loop.

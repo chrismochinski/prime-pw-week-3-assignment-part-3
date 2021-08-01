@@ -3,3 +3,23 @@
 body {
  background-color: MediumSeaGreen;
 }
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-family: cursive;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
