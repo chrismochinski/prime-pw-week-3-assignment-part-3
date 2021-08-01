@@ -90,7 +90,7 @@ while(final<5){
   }
 }
 //You're going to think I'm full of beans, but...
-//...first try on this one as well!
+//...I managed to nail this one quite quickly as well!! Stoked!
 
 // 9. Write a loop to determine the total number of parts available by
 //    adding up all the numbers in the 'supplyChanges' array.
